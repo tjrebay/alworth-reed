@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alworth &amp; Reed — Concierge Mobile Notary | Danville, San Ramon, Walnut Creek</title>
+<meta name="description" content="Mobile notary public serving Danville, San Ramon, Walnut Creek, Alamo, Diablo and Blackhawk. Loan signings, real estate, power of attorney, trusts. We come to you. Call 925-550-0158.">
+<link rel="icon" href="assets/logo.png">
+
+<meta property="og:title" content="Alworth &amp; Reed — Concierge Notary">
+<meta property="og:description" content="We come to you. Anytime. Anywhere. Mobile notary serving Danville, San Ramon, Walnut Creek and surrounding areas.">
+<meta property="og:image" content="assets/logo.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.alworthreednotary.com">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Lato:wght@300;400;700;900&family=Pinyon+Script&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"LocalBusiness",
+  "name":"Alworth & Reed Concierge Notary",
+  "description":"Mobile notary public and loan signing agents serving the East Bay.",
+  "url":"https://www.alworthreednotary.com",
+  "telephone":"+19255500158",
+  "email":"info@alworthreednotary.com",
+  "image":"https://www.alworthreednotary.com/assets/logo.png",
+  "areaServed":["Danville, CA","San Ramon, CA","Walnut Creek, CA","Alamo, CA","Diablo, CA","Blackhawk, CA"],
+  "priceRange":"$$"
+}
+</script>
+
+<style>
+:root{
+  --navy:#0B2244;
+  --navy-2:#123059;
+  --navy-3:#081A34;
+  --gold:#C39A3E;
+  --gold-lt:#DCBB6A;
+  --cream:#F8F3E9;
+  --cream-2:#F1E8D8;
+  --ink:#12233C;
+  --muted:#5B6B80;
+  --line:rgba(195,154,62,.4);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--cream);color:var(--ink);
+  font-family:Lato,system-ui,sans-serif;font-size:16.5px;line-height:1.6}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 1.5rem}
+.band{padding:3.25rem 0}
+@media(max-width:680px){.band{padding:2.5rem 0}}
+
+h1,h2,h3,h4{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;line-height:1.15;margin:0}
+h3{font-size:1.22rem}
+
+/* ---------- section headers ---------- */
+.sec-head{text-align:center;margin-bottom:2rem}
+.script-h{
+  font-family:"Pinyon Script",cursive;font-weight:400;
+  font-size:clamp(1.9rem,4.6vw,2.7rem);color:var(--gold);line-height:1.25;margin:0;
+}
+.caps-h{
+  font-family:Lato,sans-serif;font-weight:900;font-size:clamp(.8rem,2vw,.95rem);
+  letter-spacing:.24em;text-transform:uppercase;color:var(--navy);margin:.3rem 0 0;
+}
+.rule{display:flex;align-items:center;gap:.85rem;justify-content:center;margin:.9rem auto 0;max-width:19rem}
+.rule::before,.rule::after{content:"";height:1px;flex:1;background:var(--line)}
+.rule svg{width:13px;height:17px;fill:var(--gold);flex:none}
+.sec-head .blurb{color:var(--muted);max-width:36rem;margin:.9rem auto 0;font-size:.95rem}
+
+.on-navy .caps-h{color:var(--cream)}
+.on-navy .script-h{color:var(--gold-lt)}
+
+/* ---------- icon badge ---------- */
+.ic{width:46px;height:46px;border-radius:50%;background:var(--navy);
+  display:flex;align-items:center;justify-content:center;flex:none}
+.ic svg{width:24px;height:24px;fill:none;stroke:var(--gold-lt);
+  stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+
+/* ================= HERO ================= */
+.hero{position:relative;background:var(--cream);overflow:hidden;isolation:isolate}
+.geo{position:absolute;inset:0;z-index:-1;pointer-events:none}
+.geo .g-gold{position:absolute;left:0;top:0;bottom:0;width:34%;
+  background:linear-gradient(160deg,var(--gold-lt),var(--gold));
+  clip-path:polygon(0 0,100% 0,54% 100%,0 100%)}
+.geo .g-navy{position:absolute;left:0;top:0;bottom:0;width:34%;
+  background:var(--navy);clip-path:polygon(0 0,94% 0,48% 100%,0 100%)}
+.geo .g-wedge{position:absolute;right:0;bottom:0;width:22%;height:34%;
+  background:linear-gradient(135deg,var(--gold-lt),var(--gold));
+  clip-path:polygon(100% 0,100% 100%,0 100%)}
+.geo .g-quill{position:absolute;right:3%;top:8%;width:24%;max-width:250px;
+  opacity:.09;color:var(--navy)}
+@media(max-width:880px){
+  .geo .g-gold{width:100%;height:132px;bottom:auto;clip-path:polygon(0 0,100% 0,100% 62%,0 100%)}
+  .geo .g-navy{width:100%;height:132px;bottom:auto;clip-path:polygon(0 0,100% 0,100% 56%,0 94%)}
+  .geo .g-quill{width:40%;opacity:.07;top:auto;bottom:6%;right:2%}
+  .geo .g-wedge{width:32%;height:14%}
+}
+
+.hero-inner{display:grid;grid-template-columns:auto 1fr;gap:2.5rem;align-items:center;
+  padding:2.5rem 0 3rem}
+@media(max-width:880px){
+  .hero-inner{grid-template-columns:1fr;gap:1rem;padding:1.25rem 0 2.25rem}
+}
+.seal{width:148px;height:148px;flex:none;justify-self:center}
+@media(max-width:880px){.seal{width:96px;height:96px;order:-1}}
+
+.hero-main{text-align:center}
+.hero-logo{width:min(330px,72vw);margin:0 auto}
+.hero-tag{font-family:"Pinyon Script",cursive;font-size:clamp(1.6rem,4.4vw,2.3rem);
+  color:var(--navy);line-height:1.4;margin:.4rem 0 0}
+.calls{display:flex;flex-wrap:wrap;gap:.65rem;justify-content:center;margin-top:1.5rem}
+.btn{display:inline-flex;align-items:center;gap:.55rem;
+  background:var(--navy);color:var(--cream);text-decoration:none;
+  font-weight:700;font-size:.93rem;letter-spacing:.04em;
+  padding:.88rem 1.5rem;border:1px solid var(--navy);transition:.2s}
+.btn svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.7;
+  stroke-linecap:round;stroke-linejoin:round;flex:none}
+.btn:hover{background:var(--gold);border-color:var(--gold);color:var(--navy)}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:var(--navy)}
+.btn.gold:hover{background:var(--navy);border-color:var(--navy);color:var(--cream)}
+.btn.ghost{background:transparent;color:var(--navy)}
+.btn.ghost:hover{background:var(--navy);color:var(--cream)}
+.btn.onnavy{background:transparent;color:var(--cream);border-color:var(--gold-lt)}
+.btn.onnavy:hover{background:var(--gold-lt);color:var(--navy)}
+.hero-note{margin:1rem 0 0;font-size:.86rem;color:var(--muted)}
+
+/* ================= TRUST ================= */
+.trust{background:var(--navy-3);color:var(--gold-lt)}
+.trust .wrap{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;
+  gap:.5rem 2rem;padding-top:.9rem;padding-bottom:.9rem}
+.trust div{display:flex;align-items:center;gap:.45rem}
+.trust svg{width:16px;height:16px;fill:none;stroke:var(--gold);stroke-width:1.6;
+  stroke-linecap:round;stroke-linejoin:round;flex:none}
+.trust span{font-size:.65rem;letter-spacing:.18em;text-transform:uppercase;font-weight:700}
+
+/* ================= NOTARIES ================= */
+.notaries{background:var(--navy);color:var(--cream);
+  border-top:2px solid var(--gold);border-bottom:2px solid var(--gold)}
+.n-grid{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:2rem}
+@media(max-width:860px){.n-grid{grid-template-columns:1fr;gap:1.75rem}}
+.person{display:flex;align-items:center;gap:1.1rem}
+.person.right{flex-direction:row-reverse;text-align:right}
+@media(max-width:860px){.person,.person.right{flex-direction:column;text-align:center;gap:.7rem}}
+.portrait{width:116px;height:116px;border-radius:50%;flex:none;padding:3px;
+  background:linear-gradient(145deg,var(--gold-lt),var(--gold))}
+.portrait img{width:100%;height:100%;border-radius:50%;object-fit:cover}
+.nm{font-family:"Pinyon Script",cursive;font-size:1.95rem;color:var(--gold-lt);
+  line-height:1.1;margin:0 0 .3rem}
+.rl{font-size:.64rem;letter-spacing:.16em;text-transform:uppercase;
+  color:rgba(248,243,233,.75);font-weight:700;line-height:1.9;margin:0}
+.creed{text-align:center;padding:0 1.5rem;
+  border-left:1px solid rgba(195,154,62,.3);border-right:1px solid rgba(195,154,62,.3)}
+@media(max-width:860px){.creed{border:0;border-top:1px solid rgba(195,154,62,.3);
+  border-bottom:1px solid rgba(195,154,62,.3);padding:1.1rem 0}}
+.creed p{margin:0;font-size:.74rem;letter-spacing:.19em;text-transform:uppercase;
+  font-weight:700;line-height:2;color:var(--cream)}
+.creed .always{font-family:"Pinyon Script",cursive;font-size:1.6rem;letter-spacing:0;
+  text-transform:none;color:var(--gold-lt);line-height:1.3;margin-top:.15rem}
+
+/* ================= SERVICES ================= */
+.svc-grid{display:grid;gap:1.35rem 2rem;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.svc{display:flex;gap:.95rem;align-items:flex-start}
+.svc h4{font-family:Lato,sans-serif;font-size:.75rem;font-weight:900;letter-spacing:.11em;
+  text-transform:uppercase;color:var(--navy);margin:.5rem 0 .3rem}
+.svc p{margin:0;font-size:.91rem;color:var(--muted);line-height:1.5}
+
+/* ================= PRICING ================= */
+.pricing{background:var(--cream-2)}
+.price-grid{display:grid;gap:1.4rem;grid-template-columns:repeat(auto-fit,minmax(315px,1fr))}
+.card{background:#FFFDF8;border:1px solid var(--line);padding:1.7rem 1.55rem}
+.blk+.blk{margin-top:1.4rem;padding-top:1.3rem;border-top:1px solid rgba(18,35,60,.12)}
+.blk-head{display:flex;align-items:center;gap:.75rem;margin-bottom:.8rem}
+.blk-head h3{font-family:Lato,sans-serif;font-size:.73rem;font-weight:900;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--navy)}
+.blk-head .ic{width:38px;height:38px}
+.blk-head .ic svg{width:20px;height:20px}
+.rows{list-style:none;margin:0;padding:0}
+.rows li{display:flex;align-items:baseline;gap:.6rem;padding:.5rem 0;
+  border-bottom:1px dotted rgba(18,35,60,.22)}
+.rows li:last-child{border-bottom:0}
+.rows .lb{flex:1;font-size:.92rem;line-height:1.35}
+.rows .pr{font-family:"Cormorant Garamond",serif;font-size:1.14rem;font-weight:700;
+  color:var(--navy);white-space:nowrap}
+.fine{font-size:.79rem;color:var(--muted);margin:.7rem 0 0;font-style:italic;line-height:1.45}
+.statute{display:flex;align-items:center;gap:.7rem;margin:.1rem 0}
+.statute .big{font-family:"Cormorant Garamond",serif;font-size:3rem;font-weight:700;
+  color:var(--gold);line-height:1}
+.statute .lbl{font-size:.72rem;font-weight:900;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--navy);line-height:1.5}
+
+/* ================= AREA ================= */
+.area{background:var(--navy);color:var(--cream);
+  border-top:2px solid var(--gold);border-bottom:2px solid var(--gold)}
+.area .wrap{display:flex;align-items:center;gap:2rem;flex-wrap:wrap;justify-content:center}
+.area-l{display:flex;align-items:center;gap:1rem;flex:none}
+.area-l .ic{background:transparent;border:1.5px solid var(--gold);width:54px;height:54px}
+.area-l .caps{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;
+  font-weight:900;color:var(--gold-lt)}
+.area-l .scr{font-family:"Pinyon Script",cursive;font-size:1.9rem;
+  color:var(--cream);line-height:1.15}
+.area-r{flex:1;min-width:250px;padding-left:2rem;border-left:1px solid rgba(195,154,62,.3)}
+@media(max-width:780px){.area-r{border-left:0;padding-left:0;text-align:center}
+  .cities{justify-content:center}}
+.cities{display:flex;flex-wrap:wrap;gap:.3rem 0;list-style:none;margin:0;padding:0}
+.cities li{font-family:"Cormorant Garamond",serif;font-size:1.26rem;
+  padding:0 .9rem;position:relative}
+.cities li+li::before{content:"";position:absolute;left:0;top:50%;transform:translateY(-50%);
+  width:4px;height:4px;border-radius:50%;background:var(--gold)}
+.area-r .sub{margin:.35rem 0 0;font-style:italic;font-size:.88rem;color:rgba(248,243,233,.65)}
+
+/* ================= STEPS ================= */
+.steps{display:grid;gap:1.7rem;grid-template-columns:repeat(auto-fit,minmax(215px,1fr))}
+.step{display:flex;gap:.9rem;align-items:flex-start}
+.step .rn{font-family:"Cormorant Garamond",serif;font-size:1.85rem;color:var(--gold);
+  line-height:1;flex:none;width:1.9rem;font-weight:600}
+.step h3{color:var(--navy);margin-bottom:.25rem;font-size:1.12rem}
+.step p{margin:0;color:var(--muted);font-size:.91rem;line-height:1.5}
+
+/* ================= READY ================= */
+.ready-wrap{display:flex;gap:1.75rem;align-items:flex-start;max-width:42rem;margin:0 auto;
+  flex-wrap:wrap;justify-content:center}
+.ready{list-style:none;padding:0;margin:0;flex:1;min-width:265px}
+.ready li{padding:.55rem 0 .55rem 1.6rem;border-bottom:1px solid var(--line);
+  position:relative;font-size:.96rem}
+.ready li:last-child{border-bottom:0}
+.ready li::before{content:"";position:absolute;left:.2rem;top:1.05rem;
+  width:5px;height:5px;background:var(--gold);transform:rotate(45deg)}
+.ready-wrap .ic{width:58px;height:58px}
+.ready-wrap .ic svg{width:30px;height:30px}
+
+/* ================= BOOKING ================= */
+.booking{background:var(--navy);color:var(--cream)}
+.book-grid{display:grid;grid-template-columns:1fr auto;gap:2.5rem;align-items:center}
+@media(max-width:800px){.book-grid{grid-template-columns:1fr;gap:1.75rem;text-align:center}}
+.book-copy p{color:rgba(248,243,233,.78);margin:.9rem 0 0;max-width:34rem}
+@media(max-width:800px){.book-copy p{margin-left:auto;margin-right:auto}}
+.book-actions{display:flex;flex-wrap:wrap;gap:.65rem;margin-top:1.4rem}
+@media(max-width:800px){.book-actions{justify-content:center}}
+.qr-slot{width:168px;height:168px;border:2px dashed rgba(220,187,106,.5);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:.55rem;text-align:center;padding:1rem;justify-self:center}
+.qr-slot svg{width:30px;height:30px;fill:none;stroke:var(--gold-lt);stroke-width:1.4}
+.qr-slot span{font-size:.58rem;letter-spacing:.16em;text-transform:uppercase;
+  color:rgba(220,187,106,.8);font-weight:700;line-height:1.7}
+
+/* ================= CONTACT ================= */
+.contact{background:var(--cream-2)}
+.c-grid{display:grid;gap:1.6rem;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));
+  max-width:940px;margin:0 auto}
+.c-item{display:flex;align-items:center;gap:.85rem;text-decoration:none}
+.c-item .ic{width:42px;height:42px}
+.c-item .ic svg{width:21px;height:21px}
+.c-item .lb{font-size:.6rem;letter-spacing:.19em;text-transform:uppercase;
+  color:var(--muted);font-weight:900;display:block;line-height:1.9}
+.c-item .vl{font-family:"Cormorant Garamond",serif;font-size:1.28rem;color:var(--navy);
+  font-weight:600;line-height:1.2;word-break:break-word;display:block}
+.c-item:hover .vl{color:var(--gold)}
+
+/* ================= FOOTER ================= */
+footer{background:var(--navy-3);color:rgba(248,243,233,.58);font-size:.81rem;
+  padding:2.4rem 0 2.8rem;border-top:2px solid var(--gold)}
+footer p{max-width:46rem;margin:0 auto 1rem;text-align:center;line-height:1.65}
+footer strong{color:rgba(248,243,233,.85)}
+footer .legal{font-size:.73rem;color:rgba(248,243,233,.4)}
+
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<!-- ============ ICON LIBRARY ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <symbol id="i-fleur" viewBox="0 0 32 40">
+    <path d="M16 0C19 8 20 14 16 20C12 14 13 8 16 0Z"/>
+    <path d="M15 20C10 19 5 17 4 12C3 8 6 6 9 9C12 12 13 16 15 20Z"/>
+    <path d="M17 20C22 19 27 17 28 12C29 8 26 6 23 9C20 12 19 16 17 20Z"/>
+    <rect x="10" y="20" width="12" height="3.2" rx="1.2"/>
+    <path d="M16 23.2C13 28 10 32 12 38C14 34 15 32 16 30C17 32 18 34 20 38C22 32 19 28 16 23.2Z"/>
+  </symbol>
+  <symbol id="i-quill" viewBox="0 0 24 24">
+    <path d="M19.5 4.5c0 7-4.8 12.4-12.5 13.5C7 11 11.8 5.6 19.5 4.5Z"/>
+    <path d="M7 18 12.6 12.4"/><path d="M4 21c.9-1.5 1.9-2.5 2.9-3"/>
+  </symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24">
+    <path d="M6 2.9h7.6L18.6 8v13.1H6Z"/><path d="M13.6 2.9V8h5"/>
+    <path d="M9 12.8h6M9 16.2h4"/>
+  </symbol>
+  <symbol id="i-car" viewBox="0 0 24 24">
+    <path d="M2.9 16.2v-3.4l2-4.6a1.6 1.6 0 0 1 1.5-1h11.2a1.6 1.6 0 0 1 1.5 1l2 4.6v3.4"/>
+    <path d="M2.9 12.8h18.2"/><circle cx="7" cy="16.3" r="1.9"/><circle cx="17" cy="16.3" r="1.9"/>
+  </symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24">
+    <path d="M20 14.6A8.3 8.3 0 0 1 9.4 4a8.5 8.5 0 1 0 10.6 10.6Z"/>
+    <path d="M16.2 3.2l.6 1.7 1.7.6-1.7.6-.6 1.7-.6-1.7-1.7-.6 1.7-.6Z"/>
+  </symbol>
+  <symbol id="i-clip" viewBox="0 0 24 24">
+    <rect x="4.6" y="4.6" width="14.8" height="16" rx="1.8"/>
+    <path d="M9.2 4.6V3.7a1.1 1.1 0 0 1 1.1-1.1h3.4a1.1 1.1 0 0 1 1.1 1.1v.9"/>
+    <path d="M8.6 10h6.8M8.6 13.4h6.8M8.6 16.8h4"/>
+  </symbol>
+  <symbol id="i-house" viewBox="0 0 24 24">
+    <path d="M3.5 10.6 12 3.6l8.5 7"/><path d="M5.6 9.2V20.4h12.8V9.2"/>
+    <path d="M10 20.4v-5.6h4v5.6"/>
+  </symbol>
+  <symbol id="i-print" viewBox="0 0 24 24">
+    <path d="M7.5 8.5V3.8h9v4.7"/>
+    <rect x="3.6" y="8.5" width="16.8" height="7" rx="1.6"/>
+    <path d="M7.5 15.5h9v4.7h-9z"/>
+  </symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="8.5"/><path d="M12 6.9v5.3l3.4 2"/>
+  </symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24">
+    <path d="M12 21.4s7-6 7-10.9a7 7 0 1 0-14 0c0 4.9 7 10.9 7 10.9Z"/>
+    <circle cx="12" cy="10.3" r="2.6"/>
+  </symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24">
+    <path d="M12 2.8 4.9 5.8v5.4c0 4.5 2.9 8.3 7.1 9.8 4.2-1.5 7.1-5.3 7.1-9.8V5.8Z"/>
+    <path d="M8.7 12.1 11 14.5l4.5-4.6"/>
+  </symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24">
+    <rect x="4.9" y="10.4" width="14.2" height="10.2" rx="2"/>
+    <path d="M8.4 10.4V7.6a3.6 3.6 0 0 1 7.2 0v2.8"/>
+  </symbol>
+  <symbol id="i-badge" viewBox="0 0 24 24">
+    <circle cx="12" cy="9" r="5.4"/><path d="M9.4 13.6 8.2 21.4l3.8-2.2 3.8 2.2-1.2-7.8"/>
+  </symbol>
+  <symbol id="i-id" viewBox="0 0 24 24">
+    <rect x="2.7" y="5" width="18.6" height="14" rx="2"/>
+    <circle cx="8.6" cy="10.9" r="2.4"/>
+    <path d="M4.9 16.3c.6-1.7 2-2.6 3.7-2.6s3.1.9 3.7 2.6"/>
+    <path d="M15.2 9.9h4M15.2 13.3h4"/>
+  </symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24">
+    <rect x="3.5" y="5.2" width="17" height="15.3" rx="2"/>
+    <path d="M3.5 10h17"/><path d="M8 3.2v3.7M16 3.2v3.7"/>
+    <path d="M8.2 13.8h2M13.8 13.8h2M8.2 17.1h2M13.8 17.1h2"/>
+  </symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24">
+    <path d="M6.6 3.6h3l1.6 4-2 1.3a12 12 0 0 0 5.9 5.9l1.3-2 4 1.6v3a1.6 1.6 0 0 1-1.7 1.6A16.3 16.3 0 0 1 5 5.3 1.6 1.6 0 0 1 6.6 3.6Z"/>
+  </symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24">
+    <rect x="2.8" y="5" width="18.4" height="14" rx="2"/><path d="M3.4 6.6 12 12.8l8.6-6.2"/>
+  </symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24">
+    <rect x="3.6" y="3.6" width="16.8" height="16.8" rx="4.6"/>
+    <circle cx="12" cy="12" r="4"/><path d="M16.9 7.1h.01"/>
+  </symbol>
+  <symbol id="i-qr" viewBox="0 0 24 24">
+    <rect x="3.5" y="3.5" width="7" height="7"/><rect x="13.5" y="3.5" width="7" height="7"/>
+    <rect x="3.5" y="13.5" width="7" height="7"/>
+    <path d="M13.5 13.5h3v3h-3zM19.5 13.5h1M13.5 19.5h1M17.5 17.5h3M19.5 20.5h1"/>
+  </symbol>
+  <symbol id="i-msg" viewBox="0 0 24 24">
+    <path d="M20.4 12.2c0 3.9-3.8 7-8.4 7a9.8 9.8 0 0 1-2.6-.35L4.6 20.4l1.3-3.4a6.6 6.6 0 0 1-2.3-4.8c0-3.9 3.8-7 8.4-7s8.4 3.1 8.4 7Z"/>
+  </symbol>
+  <symbol id="w-quill" viewBox="0 0 100 140">
+    <path d="M78 8C78 58 55 96 18 110C14 60 36 20 78 8Z" fill="currentColor" stroke="none"/>
+    <path d="M18 110 46 78" stroke="currentColor" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M6 134c6-10 12-17 18-22" stroke="currentColor" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </symbol>
+</defs></svg>
+
+<!-- ================= HERO ================= -->
+<header class="hero">
+  <div class="geo" aria-hidden="true">
+    <div class="g-gold"></div>
+    <div class="g-navy"></div>
+    <svg class="g-quill" viewBox="0 0 100 140"><use href="#w-quill"/></svg>
+    <div class="g-wedge"></div>
+  </div>
+
+  <div class="wrap hero-inner">
+
+    <svg class="seal" viewBox="0 0 100 100" role="img" aria-label="Trusted, professional, reliable, convenient">
+      <defs>
+        <path id="arcT" d="M50 50 m-37 0 a37 37 0 0 1 74 0"/>
+        <path id="arcB" d="M50 50 m37 0 a37 37 0 0 1 -74 0"/>
+      </defs>
+      <circle cx="50" cy="50" r="47" fill="none" stroke="#DCBB6A" stroke-width="1.6"/>
+      <circle cx="50" cy="50" r="43" fill="none" stroke="#DCBB6A" stroke-width=".7"/>
+      <text fill="#DCBB6A" font-family="Lato,sans-serif" font-size="7" font-weight="700" letter-spacing="1.1">
+        <textPath href="#arcT" startOffset="50%" text-anchor="middle">TRUSTED · PROFESSIONAL</textPath>
+      </text>
+      <text fill="#DCBB6A" font-family="Lato,sans-serif" font-size="7" font-weight="700" letter-spacing="1.1">
+        <textPath href="#arcB" startOffset="50%" text-anchor="middle">RELIABLE · CONVENIENT</textPath>
+      </text>
+      <g transform="translate(33,28) scale(.33)" color="#DCBB6A"><use href="#w-quill"/></g>
+      <path d="M31 78h38" stroke="#DCBB6A" stroke-width=".8" fill="none"/>
+    </svg>
+
+    <div class="hero-main">
+      <img class="hero-logo" src="assets/logo.png" alt="Alworth &amp; Reed — Concierge Notary, Mobile Notary Services">
+      <p class="hero-tag">We come to you.<br>Anytime. Anywhere.</p>
+      <div class="calls">
+        <a class="btn gold" href="#book"><svg><use href="#i-cal"/></svg>Book an Appointment</a>
+        <a class="btn" href="tel:+19255500158"><svg><use href="#i-phone"/></svg>925-550-0158</a>
+        <a class="btn ghost" href="tel:+14158064517"><svg><use href="#i-phone"/></svg>415-806-4517</a>
+      </div>
+      <p class="hero-note">Evenings, weekends and same-day appointments available.</p>
+    </div>
+  </div>
+</header>
+
+<!-- ================= TRUST ================= -->
+<div class="trust">
+  <div class="wrap">
+    <div><svg><use href="#i-badge"/></svg><span>Commissioned</span></div>
+    <div><svg><use href="#i-shield"/></svg><span>Bonded &amp; Insured</span></div>
+    <div><svg><use href="#i-lock"/></svg><span>Background Screened</span></div>
+    <div><svg><use href="#i-house"/></svg><span>Certified Loan Signing Agents</span></div>
+  </div>
+</div>
+
+<!-- ================= NOTARIES ================= -->
+<section class="band notaries">
+  <div class="wrap n-grid">
+    <div class="person">
+      <div class="portrait"><img src="assets/katie.jpg" alt="Katie Alworth"></div>
+      <div>
+        <p class="nm">Katie Alworth</p>
+        <p class="rl">Notary Public<br>Loan Signing Agent</p>
+      </div>
+    </div>
+
+    <div class="creed">
+      <p>Professional.<br>Dependable.<br>Discreet.</p>
+      <p class="always">Always.</p>
+    </div>
+
+    <div class="person right">
+      <div class="portrait"><img src="assets/chrissy.jpg" alt="Chrissy Reed"></div>
+      <div>
+        <p class="nm">Chrissy Reed</p>
+        <p class="rl">Notary Public<br>Loan Signing Agent</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="band">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="script-h">What We Notarize</p>
+      <p class="caps-h">Professional Notary Services</p>
+      <div class="rule"><svg><use href="#i-fleur"/></svg></div>
+    </div>
+    <div class="svc-grid">
+      <div class="svc"><div class="ic"><svg><use href="#i-house"/></svg></div>
+        <div><h4>Real Estate Documents</h4><p>Grant deeds, quitclaim deeds, deeds of trust and transfer documents.</p></div></div>
+      <div class="svc"><div class="ic"><svg><use href="#i-doc"/></svg></div>
+        <div><h4>Loan Signings</h4><p>Refinance, purchase, seller and HELOC packages, start to finish.</p></div></div>
+      <div class="svc"><div class="ic"><svg><use href="#i-quill"/></svg></div>
+        <div><h4>Power of Attorney</h4><p>Financial and medical, including bedside and facility appointments.</p></div></div>
+      <div class="svc"><div class="ic"><svg><use href="#i-shield"/></svg></div>
+        <div><h4>Trusts &amp; Estate Documents</h4><p>Living trusts, amendments, certifications and related paperwork.</p></div></div>
+      <div class="svc"><div class="ic"><svg><use href="#i-clip"/></svg></div>
+        <div><h4>Affidavits &amp; Sworn Statements</h4><p>Acknowledgments and jurats for court, insurance and business filings.</p></div></div>
+      <div class="svc"><div class="ic"><svg><use href="#i-car"/></svg></div>
+        <div><h4>Vehicle &amp; DMV Transfers</h4><p>Title transfers and DMV forms requiring a notarized signature.</p></div></div>
+      <div class="svc"><div class="ic"><svg><use href="#i-id"/></svg></div>
+        <div><h4>Health Care Directives</h4><p>Hospital, skilled nursing and assisted living visits are routine for us.</p></div></div>
+      <div class="svc"><div class="ic"><svg><use href="#i-badge"/></svg></div>
+        <div><h4>And More</h4><p>Parental travel consent, business documents, and most anything requiring a seal.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PRICING ================= -->
+<section class="band pricing">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="script-h">Transparent Pricing</p>
+      <p class="caps-h">No Surprises</p>
+      <div class="rule"><svg><use href="#i-fleur"/></svg></div>
+      <p class="blurb">You'll have a firm quote before we ever get in the car.</p>
+    </div>
+
+    <div class="price-grid">
+
+      <div class="card">
+        <div class="blk">
+          <div class="blk-head"><div class="ic"><svg><use href="#i-quill"/></svg></div><h3>Notary Services</h3></div>
+          <div class="statute">
+            <span class="big">$15</span>
+            <span class="lbl">per notarized<br>signature</span>
+          </div>
+          <p class="fine">Maximum set by California Government Code §8211. Travel and service fees are separate.</p>
+        </div>
+        <div class="blk">
+          <div class="blk-head"><div class="ic"><svg><use href="#i-car"/></svg></div><h3>Mobile Travel Fees</h3></div>
+          <ul class="rows">
+            <li><span class="lb">Local, 0–10 miles</span><span class="pr">$65</span></li>
+            <li><span class="lb">Extended, 10–20 miles</span><span class="pr">$85–100</span></li>
+            <li><span class="lb">20+ miles</span><span class="pr">Custom</span></li>
+          </ul>
+          <p class="fine">Travel fee covers the round trip and is quoted up front.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="blk">
+          <div class="blk-head"><div class="ic"><svg><use href="#i-clip"/></svg></div><h3>Typical Appointment</h3></div>
+          <ul class="rows">
+            <li><span class="lb">Single signature</span><span class="pr">$80–100</span></li>
+            <li><span class="lb">Two to four signatures</span><span class="pr">$100–140</span></li>
+            <li><span class="lb">Trusts, POA, larger packages</span><span class="pr">$125–175+</span></li>
+          </ul>
+          <p class="fine">Pricing may vary based on location and time.</p>
+        </div>
+        <div class="blk">
+          <div class="blk-head"><div class="ic"><svg><use href="#i-house"/></svg></div><h3>Loan Signing Services</h3></div>
+          <ul class="rows">
+            <li><span class="lb">Refinance / buyer package</span><span class="pr">$150–200</span></li>
+            <li><span class="lb">Seller package</span><span class="pr">$125–175</span></li>
+            <li><span class="lb">HELOC / small package</span><span class="pr">$100–150</span></li>
+          </ul>
+          <p class="fine">Packages vary by lender and number of documents.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="blk">
+          <div class="blk-head"><div class="ic"><svg><use href="#i-moon"/></svg></div><h3>Premium Service Options</h3></div>
+          <ul class="rows">
+            <li><span class="lb">Evenings, after 6pm</span><span class="pr">+$35</span></li>
+            <li><span class="lb">Weekend appointments</span><span class="pr">+$25–50</span></li>
+            <li><span class="lb">Same-day / rush service</span><span class="pr">+$50</span></li>
+          </ul>
+        </div>
+        <div class="blk">
+          <div class="blk-head"><div class="ic"><svg><use href="#i-print"/></svg></div><h3>Additional Services</h3></div>
+          <ul class="rows">
+            <li><span class="lb">Document printing</span><span class="pr">$35–50</span></li>
+            <li><span class="lb">Scan-backs</span><span class="pr">$30</span></li>
+            <li><span class="lb">Second copy set</span><span class="pr">$25–40</span></li>
+            <li><span class="lb">Last-minute changes</span><span class="pr">+$25</span></li>
+          </ul>
+        </div>
+        <div class="blk">
+          <div class="blk-head"><div class="ic"><svg><use href="#i-clock"/></svg></div><h3>Wait Time Policy</h3></div>
+          <ul class="rows">
+            <li><span class="lb">First 15 minutes</span><span class="pr">Included</span></li>
+            <li><span class="lb">Each additional 15 min</span><span class="pr">$30</span></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= AREA ================= -->
+<section class="band area">
+  <div class="wrap">
+    <div class="area-l">
+      <div class="ic"><svg><use href="#i-pin"/></svg></div>
+      <div>
+        <div class="caps">Proudly Serving</div>
+        <div class="scr">The East Bay</div>
+      </div>
+    </div>
+    <div class="area-r">
+      <ul class="cities">
+        <li>Danville</li><li>San Ramon</li><li>Walnut Creek</li>
+        <li>Alamo</li><li>Diablo</li><li>Blackhawk</li>
+      </ul>
+      <p class="sub">and surrounding areas</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= STEPS ================= -->
+<section class="band">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="script-h">The Process</p>
+      <p class="caps-h">How an Appointment Works</p>
+      <div class="rule"><svg><use href="#i-fleur"/></svg></div>
+    </div>
+    <div class="steps">
+      <div class="step"><span class="rn">I</span>
+        <div><h3>Call, text or book</h3><p>Tell us the document, the city and when you're free. You'll get a firm time and a firm price right away.</p></div></div>
+      <div class="step"><span class="rn">II</span>
+        <div><h3>We come to you</h3><p>Home, office, hospital or care facility. Leave the signature line blank until we're together.</p></div></div>
+      <div class="step"><span class="rn">III</span>
+        <div><h3>Signed and sealed</h3><p>Most appointments take fifteen minutes. Payment when we finish.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= READY ================= -->
+<section class="band" style="background:var(--cream-2)">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="script-h">Before We Arrive</p>
+      <p class="caps-h">Have This Ready</p>
+      <div class="rule"><svg><use href="#i-fleur"/></svg></div>
+    </div>
+    <div class="ready-wrap">
+      <div class="ic"><svg><use href="#i-id"/></svg></div>
+      <ul class="ready">
+        <li>A current government photo ID for every signer</li>
+        <li>The complete document, still unsigned</li>
+        <li>All signers present at the same time</li>
+        <li>Any witnesses your document requires</li>
+        <li>Names spelled exactly as they appear on the ID</li>
+      </ul>
+    </div>
+    <p style="text-align:center;color:var(--muted);margin-top:1.3rem;font-style:italic;font-size:.88rem">
+      An expired ID is the most common reason an appointment can't be completed. Worth checking twice.
+    </p>
+  </div>
+</section>
+
+<!-- ================= BOOKING ================= -->
+<section class="band booking" id="book">
+  <div class="wrap book-grid">
+    <div class="book-copy">
+      <div class="sec-head on-navy" style="text-align:left;margin-bottom:0">
+        <p class="script-h">Book Your Appointment</p>
+        <p class="caps-h">Easy. Convenient. Professional.</p>
+      </div>
+      <p>We provide a seamless, professional experience with attention to detail — ensuring your
+         documents are handled accurately and efficiently every time.</p>
+      <div class="book-actions">
+        <!-- ============================================================
+             BOOKING PLACEHOLDER
+             When the scheduler is live: change the href below to the
+             booking URL and drop the tel: fallback.
+             ============================================================ -->
+        <a class="btn gold" href="tel:+19255500158"><svg><use href="#i-cal"/></svg>Request an Appointment</a>
+        <a class="btn onnavy" href="sms:+19255500158"><svg><use href="#i-msg"/></svg>Text Us</a>
+      </div>
+    </div>
+
+    <div class="qr-slot">
+      <svg><use href="#i-qr"/></svg>
+      <span>Scan to book<br>coming soon</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="band contact">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="script-h">Let's Connect</p>
+      <p class="caps-h">Thank You For Trusting Us</p>
+      <div class="rule"><svg><use href="#i-fleur"/></svg></div>
+    </div>
+    <div class="c-grid">
+      <a class="c-item" href="tel:+19255500158">
+        <div class="ic"><svg><use href="#i-phone"/></svg></div>
+        <div><span class="lb">Call or Text</span><span class="vl">925-550-0158</span></div>
+      </a>
+      <a class="c-item" href="tel:+14158064517">
+        <div class="ic"><svg><use href="#i-phone"/></svg></div>
+        <div><span class="lb">Call or Text</span><span class="vl">415-806-4517</span></div>
+      </a>
+      <a class="c-item" href="mailto:info@alworthreednotary.com">
+        <div class="ic"><svg><use href="#i-mail"/></svg></div>
+        <div><span class="lb">Email</span><span class="vl" style="font-size:1.02rem">info@alworthreednotary.com</span></div>
+      </a>
+      <a class="c-item" href="https://www.instagram.com/alworthreednotary" target="_blank" rel="noopener">
+        <div class="ic"><svg><use href="#i-ig"/></svg></div>
+        <div><span class="lb">Instagram</span><span class="vl" style="font-size:1.08rem">@alworthreednotary</span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <p>
+      <strong>We are not attorneys licensed to practice law in the State of California</strong>
+      and may not give legal advice about immigration or any other legal matter, or accept fees
+      for legal advice. A notary public may not explain the contents of a document or help you
+      choose which document you need.
+    </p>
+    <p class="legal">
+      Notarial fees are set by California Government Code §8211. Travel and service fees are separate,
+      are not regulated by the state, and are disclosed in advance.
+    </p>
+    <p class="legal">
+      © <span id="yr">2026</span> Alworth &amp; Reed Concierge Notary · Danville, California
+    </p>
+  </div>
+</footer>
+
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
