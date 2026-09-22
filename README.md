@@ -8,7 +8,7 @@ No build step. No dependencies. Edit `index.html` and push.
 ```
 index.html          entire site — markup and CSS in one file
 assets/logo.png     A|R seal, transparent background
-assets/katie.jpg    Katie Alworth, 760x760
+assets/katie.jpg    Elizabeth "Katie" Alworth, 760x760
 assets/chrissy.jpg  Chrissy Reed, 760x760
 ```
 
@@ -51,6 +51,16 @@ section. Nothing is calculated.
 
 ## Notes
 
+- The NSA badge in the credentials section is **hot-linked** to
+  nationalnotary.org per the NNA's own badge-embed code. It is not self-hosted,
+  so it breaks if the NNA moves the file. Verify it still renders after any
+  NNA site redesign.
+- Katie's verification link points to her signingagent.com profile, which is
+  NNA-hosted and shows whatever she has entered under Manage Profile —
+  including her loan-document delivery address. Changes there appear on the
+  public site immediately.
+- Chrissy has no signingagent.com profile yet. A commented-out second verify
+  link sits in the credentials section, ready for her profile ID.
 - California notarial fee cap ($15/signature) is set by Gov. Code §8211.
   Re-verify annually.
 - Chrissy's headshot is 1024px and displays inside a 230px circle. Do not

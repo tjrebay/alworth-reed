@@ -162,6 +162,29 @@ h3{font-size:1.22rem}
   font-weight:700;line-height:2;color:var(--cream)}
 .creed .always{font-family:"Pinyon Script",cursive;font-size:1.6rem;letter-spacing:0;
   text-transform:none;color:var(--gold-lt);line-height:1.3;margin-top:.15rem}
+.nm-long{font-size:1.68rem}
+@media(max-width:860px){.nm-long{font-size:1.8rem}}
+
+/* ================= CREDENTIALS ================= */
+.creds{background:var(--cream-2);border-bottom:1px solid var(--line)}
+.creds-in{display:flex;align-items:center;justify-content:center;gap:2rem}
+@media(max-width:680px){.creds-in{flex-direction:column;text-align:center;gap:1.25rem}}
+.creds-badge{flex:none;display:block;width:104px;padding:8px;background:#fff;
+  border:1px solid var(--line);border-radius:6px;
+  box-shadow:0 2px 10px rgba(11,34,68,.07);transition:box-shadow .2s,transform .2s}
+.creds-badge:hover{box-shadow:0 5px 18px rgba(11,34,68,.14);transform:translateY(-1px)}
+.creds-badge img{width:88px;height:88px}
+.creds h3{font-size:1.32rem;color:var(--navy);margin:0 0 .4rem}
+.creds p{margin:0;font-size:.93rem;color:var(--muted);line-height:1.55;max-width:60ch}
+.creds .eo{color:var(--navy);font-weight:700;white-space:nowrap}
+.verify{margin:.7rem 0 0;display:flex;flex-wrap:wrap;gap:.5rem 1.4rem}
+@media(max-width:680px){.verify{justify-content:center}}
+.verify a{display:inline-flex;align-items:center;gap:.4rem;text-decoration:none;
+  font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;font-weight:900;
+  color:var(--navy);border-bottom:1px solid var(--gold);padding-bottom:2px}
+.verify a:hover{color:var(--gold)}
+.verify svg{width:13px;height:13px;fill:none;stroke:var(--gold);stroke-width:1.8;
+  stroke-linecap:round;stroke-linejoin:round;flex:none}
 
 /* ================= SERVICES ================= */
 .svc-grid{display:grid;gap:1.35rem 2rem;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
@@ -423,9 +446,9 @@ footer .legal{font-size:.73rem;color:rgba(248,243,233,.4)}
 <section class="band notaries">
   <div class="wrap n-grid">
     <div class="person">
-      <div class="portrait"><img src="assets/katie.jpg" alt="Katie Alworth"></div>
+      <div class="portrait"><img src="assets/katie.jpg" alt="Elizabeth &ldquo;Katie&rdquo; Alworth"></div>
       <div>
-        <p class="nm">Katie Alworth</p>
+        <p class="nm nm-long">Elizabeth &ldquo;Katie&rdquo; Alworth</p>
         <p class="rl">Notary Public<br>Loan Signing Agent</p>
       </div>
     </div>
@@ -441,6 +464,37 @@ footer .legal{font-size:.73rem;color:rgba(248,243,233,.4)}
         <p class="nm">Chrissy Reed</p>
         <p class="rl">Notary Public<br>Loan Signing Agent</p>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CREDENTIALS ================= -->
+<section class="band creds">
+  <div class="wrap creds-in">
+    <a class="creds-badge"
+       href="https://www.nationalnotary.org/knowledge-center/signing-agent-resources"
+       target="_blank" rel="noopener"
+       title="Certified Notary Signing Agent">
+      <img src="https://www.nationalnotary.org/Image%20Library/NNA/membership%20images/nsa_member_badge.png"
+           alt="National Notary Association Certified Notary Signing Agent"
+           width="88" height="88" loading="lazy">
+    </a>
+    <div>
+      <h3>Certified. Screened. Insured.</h3>
+      <p>Elizabeth &ldquo;Katie&rdquo; Alworth is an NNA Certified Notary Signing Agent,
+         annually background screened, and carries
+         <span class="eo">$100,000</span> in Errors &amp; Omissions coverage &mdash;
+         verifiable directly through the National Notary Association.</p>
+      <p class="verify">
+        <a href="https://www.signingagent.com/profile/400208282" target="_blank" rel="noopener">
+          <svg><use href="#i-badge"/></svg>Verify Katie&rsquo;s Credentials
+        </a>
+        <!-- Chrissy's NSA profile: paste her signingagent.com profile URL below and uncomment.
+        <a href="https://www.signingagent.com/profile/PROFILE_ID" target="_blank" rel="noopener">
+          <svg><use href="#i-badge"/></svg>Verify Chrissy&rsquo;s Credentials
+        </a>
+        -->
+      </p>
     </div>
   </div>
 </section>
